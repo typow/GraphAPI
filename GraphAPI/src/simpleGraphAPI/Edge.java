@@ -1,4 +1,6 @@
-package simpleGraph;
+package simpleGraphAPI;
+
+import simpleGraph.Vertex;
 /*
  * Written by Ed Hong UWT Feb. 19, 2003.
  * Modified by Donald Chinn May 14, 2003.

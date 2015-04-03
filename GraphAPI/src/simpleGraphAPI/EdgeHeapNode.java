@@ -1,4 +1,6 @@
-package simpleGraph;
+package simpleGraphAPI;
+
+import simpleGraph.Vertex;
 /* 
  * Written by Donald Chinn September 19, 2003
  * Modified by Tyler Powers November 26, 2014 
@@ -12,7 +14,7 @@ package simpleGraph;
  * @author Donald Chinn
  * @version September 19, 2003
  */
-public class EdgeHeapNode implements Comparable {
+public class EdgeHeapNode implements Comparable<EdgeHeapNode> {
 
 	/** the edge weight */
 	double weight;
@@ -63,10 +65,10 @@ public class EdgeHeapNode implements Comparable {
 	 * @exception ClassCastException
 	 *                if rhs is not a MergesortHeapNode.
 	 */
-	public int compareTo(Object rhs) {
-		if (this.weight < ((EdgeHeapNode) rhs).weight) {
+	public int compareTo(EdgeHeapNode rhs) {
+		if (this.weight < rhs.weight) {
 			return -1;
-		} else if (this.weight == ((EdgeHeapNode) rhs).weight) {
+		} else if (this.weight == rhs.weight) {
 			return 0;
 		} else {
 			return 1;

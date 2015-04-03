@@ -2,6 +2,8 @@ package simpleGraph;
 
 import java.util.Iterator;
 
+import simpleGraphAPI.Edge;
+
 public class TestMain {
 
 	public static void main(String[] args) {

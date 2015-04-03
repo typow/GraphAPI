@@ -5,7 +5,10 @@ package simpleGraph;
  * Modified by Donald Chinn December 11, 2003.
  */
 
-import java.util.*;
+import java.util.Iterator;
+import java.util.LinkedList;
+
+import simpleGraphAPI.Edge;
 
 /**
  * A class that represents a graph.

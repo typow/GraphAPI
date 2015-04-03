@@ -2,6 +2,12 @@ package simpleGraph;
 
 import java.util.Iterator;
 
+import simpleGraphAPI.BinaryHeap;
+import simpleGraphAPI.DisjointSet;
+import simpleGraphAPI.Edge;
+import simpleGraphAPI.EdgeHeapNode;
+import simpleGraphAPI.EmptyHeapException;
+
 /**
  * Creates a SimpleGraph of edges and vertices from a file specified by the user
  * then performs Kruskal's algorithm on the SimpleGraph printing out the edges

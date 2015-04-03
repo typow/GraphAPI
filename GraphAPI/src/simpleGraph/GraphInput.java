@@ -5,9 +5,13 @@ package simpleGraph;
  * Modified by Donald Chinn December 11, 2003.
  */
 
-import java.io.*;
-import java.util.*;
-import java.text.*;
+import inputOutput.InputLib;
+import inputOutput.KeyboardReader;
+
+import java.io.BufferedReader;
+import java.util.Hashtable;
+import java.util.StringTokenizer;
+
 
 /**
  * A class that can read a graph (in a specific format) from a file.

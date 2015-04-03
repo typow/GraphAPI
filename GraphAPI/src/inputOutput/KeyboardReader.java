@@ -1,4 +1,4 @@
-package simpleGraph;
+package inputOutput;
 import java.io.*;
 
 /**
